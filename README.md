@@ -1,12 +1,42 @@
-# React + Vite
+# React Quiz App – Hybrid Assignment 03
+Hi! My name is **Khushi** and this is my submission for **Hybrid Assignment 03** for the MTM6404 Web Applications course.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 👩‍💻 About the Project
+This is a fun and simple **quiz app** I built using **React** and the **Open Trivia Database API**.
+When the page loads, it automatically fetches 5 random multiple-choice questions. The user can select their answers, submit the quiz, and then see which answers were correct. The app also shows the total score, and there’s a button to take another quiz by reloading new questions.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ What I Used
 
-## Expanding the ESLint configuration
+- **React (Vite setup)**
+- **Open Trivia DB API**
+- `useState` and `useEffect` for managing data and state
+- Basic JavaScript and JSX logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🔍 Features
+
+- Loads 5 random multiple-choice questions
+- Lets the user select one answer per question
+- Shows correct answers and user's score after submission
+- Has a “Take Another Quiz” button to restart with new questions
+
+
+## 📧 Student Info
+
+- **Name**: Khushi  
+- **Student ID**: 90541136043@algonquincdistudent.ca  
+- **Course**: MTM6404 – Web Applications  
+- **Assignment**: Hybrid Assignment 03
+
+---
+
+## 🧪 How to Run It
+
+To view the project:
+
+1. Download the folder or clone the repo  
+2. In the terminal, run:
+   ```bash
+   npm install
+   npm run dev.
